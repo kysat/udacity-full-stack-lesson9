@@ -1,0 +1,30 @@
+/
+/restaurants
+-> showRestaurants()
+"This page will show all my restaurants"
+
+/restaurant/new
+-> newRestaurant()
+"This page will be for making a new restaurant"
+
+/restaurant/restaurant_id/edit
+-> editRestanrant
+/restaurant/restaurant_id/delete
+"This page will be for editing restaurant %s" % restaurant_id
+"This page will be for deleting restaurant %s" % restaurant_id
+
+/restaurant/restaurant_id
+/restaurant/restaurant_id/menu
+-> showMenu()
+"This page is the menu for restaurant %s" % restaurant_id"
+
+/restaurant/restaurant_id/menu/new
+-> newMenuItem()
+"This page is for making a new menu item for restaurant %s" % restaurant_id
+
+/restaurant/restaurant_id/menu_id/edit
+-> editMenuItem()
+"This is for editting menu"
+
+/restaurant/restaurant_id/menu_id/delete
+-> deleteMenuItem()
